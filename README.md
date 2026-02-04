@@ -2,6 +2,8 @@
 
 A real-time face tracking and gesture recognition system for Raspberry Pi with pan-tilt camera control.
 
+**Made possible thanks to [PCBWay](https://www.pcbway.com/) for their support in making this project a reality.**
+
 ## Features
 
 - **Face Detection & Tracking**: Real-time face detection using MediaPipe
@@ -29,8 +31,8 @@ A real-time face tracking and gesture recognition system for Raspberry Pi with p
 
 ```bash
 # Clone the repository
-git clone https://github.com/Quackieduckie/face-tracking-camera.git
-cd face-tracking-camera
+git clone https://github.com/Quackieduckie/tracking-screen.git
+cd tracking-screen
 
 # Install dependencies
 pip3 install -r requirements.txt
