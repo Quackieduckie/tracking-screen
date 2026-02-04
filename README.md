@@ -1,11 +1,11 @@
-# Face Tracking Camera System
+# Tracking Screen
 
 A real-time face tracking and gesture recognition system for Raspberry Pi with pan-tilt camera control.
 
 ## Features
 
 - **Face Detection & Tracking**: Real-time face detection using MediaPipe
-- **Gesture Recognition**: Hand gesture detection (peace sign, fist, palm, shaka, etc.)
+- **Gesture Recognition**: Hand gesture detection (palm for left, shaka for right)
 - **Smooth Servo Control**: Pan-tilt camera movement with smooth tracking
 - **Background Tracking**: Continues scanning when no face is detected
 - **Multiple Detection Methods**: Uses both MediaPipe and OpenCV for robust tracking
@@ -71,10 +71,8 @@ cv.base_ctrl.gimbal_base_ctrl(0, 0)  # Center camera
 ### Gesture Recognition
 
 The system recognizes the following gestures:
-- ✌️ **Peace Sign**: Detected automatically
-- ✊ **Fist**: Closed hand detection
-- 🖐️ **Palm**: Open hand
-- 🤙 **Shaka**: Hang loose gesture
+- 🖐️ **Palm**: Open hand - Move left
+- 🤙 **Shaka**: Hang loose gesture - Move right
 
 ### Key Functions
 
