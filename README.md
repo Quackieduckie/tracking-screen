@@ -73,8 +73,8 @@ cv.base_ctrl.gimbal_base_ctrl(0, 0)  # Center camera
 ### Gesture Recognition
 
 The system recognizes the following gestures:
-- 🖐️ **Palm**: Open hand - Move left
-- 🤙 **Shaka**: Hang loose gesture - Move right
+- **Palm**: Open hand - Move left
+- **Shaka**: Hang loose gesture - Move right
 
 ### Key Functions
 
