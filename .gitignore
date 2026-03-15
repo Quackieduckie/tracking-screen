@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.backup
+*.backup_*
+.before_*
+sunny
+ugv-env/
+
+# Models (too large for git)
+*.caffemodel
+*.pb
+*.tflite
+*.onnx
+
+# Media (general)
+*.mp4
+*.avi
+*.mov
+
+# Allow images in media/ folder
+!media/*.jpg
+!media/*.JPG
+!media/*.png
+!media/*.gif
+!media/*.svg
+!media/*.stl
+
+# Config backups
+config.yaml.backup*
+config.yaml.before*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
